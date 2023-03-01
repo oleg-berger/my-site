@@ -1,0 +1,789 @@
+body{
+    font-family: "Inter";
+    /* background: #959595; */
+}
+.wrapper {
+    min-height:100%;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+.content {
+    flex: 1 1 auto;
+}
+
+.conteiner {
+    max-width: 1209px; /* ширина контентной части */
+    margin: 0px auto;
+}
+
+.headd_body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px 0px 15px 0px;
+}
+.headd_text  {
+    margin: 0px;
+    display: flex;
+    color: #5A5A5A;
+    position: relative;
+    left: 0px;
+}
+.headd_text p{
+    margin: 0px 55px 0px 0px;
+}
+
+.headd_tel {
+    color: #2F80ED;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    right: 0;
+}
+
+.headd_mob{
+    display: none;
+}
+
+.photo_ {
+    background-image: url(photo/Rectangle\ 6.png);
+    height: 530px;
+    width: 1209px;
+    background-repeat: no-repeat; 
+    border-radius: 9px;
+    position: relative;
+   
+}
+.photo_text {
+    position: absolute;
+    bottom: 0 ;
+    left: 0;
+    margin: 0px 0px 40px 40px;
+}
+
+
+.AH{
+    color: #CFCFCF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 110%;
+}
+.SPY {
+    color:#FFFFFF ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 59px;
+    line-height: 110%;
+}
+.Addres {
+    color:#D9D9D9 ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.photo_button {
+    width: 40%;
+    /* line-height: 10px; */
+    /* margin-right: 79px; */
+}
+.Zabr{
+    background-color: #2F80ED;
+    border: 0px;
+    padding: 20px 125px 22px 125px;
+    color: #FFFFFF;
+    border-radius: 9px;
+}
+.Zabr:hover{
+    cursor:pointer ;
+}
+.button_row{
+    display: flex;
+    justify-content: end;
+    /* line-height: 10px; */
+}
+.photo_mob{
+    display: none;
+}
+.button_row_mob{
+    display: none;
+}
+.photo_button_mob{
+    display: none;
+}
+
+.Inf {
+    max-height: 722px;
+}
+
+.inf_row {
+    margin: 55px 0px 0px 0px;
+    display: flex;
+    max-width: 1209px;
+}
+.Ab_us_row {
+    display: flex;
+    /* justify-content: spa; */
+    flex-direction: column;
+}
+.Ab_us_fs{
+    width: 838px;
+    /* position: static; */
+    background-color: #FFFFFF;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+    border-radius: 9px;
+    padding: 116px 0px 42px 45px;
+}
+.Ab_us_body {
+    width: 766px;
+    /* position: static; */
+    background-color: #FFFFFF;
+    max-height: 390px;
+}
+.Ab_us_tittle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+    margin: 0px 0px 25px 0px;
+}
+.Ab_us_text {
+    width: 766px;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: #757575;
+}
+
+.Room {
+    max-height: 282px;
+}
+
+.Room_img{
+    max-width: 326px;
+}
+
+.Pool_row{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.Pool_img{
+    margin: 22px 0px 0px 0px;
+}
+
+.Pool{
+    position: static;
+    /* margin-top: auto; */
+    
+}
+.Plants {
+    margin-top: auto;
+}
+.Plants_img{
+    max-width: 326px;
+}
+
+.Inf_mob {
+    display: none;
+}
+
+
+
+.Num_Fund_body {
+    max-width: 287px;
+    margin: 0px 0px 0px 20px;
+}
+.Num_Fund_tittle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+    margin: 85px 0px 45px 0px;
+}
+.Num_Fund_script {
+    max-width: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Num_Fund_text {
+    margin:20px 0px 20px 0px ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    color: #555555;
+}
+.Num_Fund_down {
+    display: flex;
+}
+.Num_Fund_price {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    color: #2D9CDB;
+}
+.Num_Fund_day {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #989898;
+    margin: auto;
+}
+.Num_Fund_row_inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 1209px;
+}
+.Num_Fund_mob{
+    display: none;
+}
+
+.Vacation_body {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 75px 0px;
+}
+.Vacation_inf img{
+        max-height: 78px;
+        align-self: center;
+        padding: 0px 0px 0px 10px;
+}
+.Vacation_tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+    margin: 81px 0px 50px 0px;
+
+}
+.Vacation_inf {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    min-width: 340px;
+    min-height: 130px;
+}
+.Vacation_img{
+    margin: 0px 26px 0px 0px;
+}
+.Vacation_script {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vacation_mob{
+    display: none;
+}
+
+
+.Loc_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+}
+.Rooms_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rooms_img{
+    max-width: 798px;
+}
+.Bed_img{
+    max-width: 387px;
+}
+.Herb_row {
+    display: flex;
+    justify-content: space-between;
+    margin:23px 0px 35px 0px;
+}
+
+.Herb_img {
+    max-width: 387px;
+}
+
+.Town_img {
+    max-width: 798px;
+}
+
+.L_button_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.L_button {
+    padding: 23px 51px 23px 51px;
+    background: #2F80ED;
+    border-radius: 9px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+.Loc_mob{
+    display: none;
+}
+
+
+.Video_tittle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+    margin: 105px 0px 46px 0px;
+}
+.Video_ph {
+    background-image: url(photo/Rectangle\ 38.png);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_mob{
+    display: none;
+}
+
+
+.Relax_row {
+    display: flex;
+}
+.Relax_body {
+    display: flex;
+    justify-content: space-between;
+}
+.Relax_script {
+    display: flex;
+    flex-direction: column;
+
+   justify-content: center;
+}
+.Relax_tittle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+}
+.Relax_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: #757575;
+}
+
+.Relax_mob{
+    display: none;
+}
+
+
+.Client_body {
+    display: flex;
+    justify-content: space-between;
+}
+.Client_tittle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 110%;
+    color: #434343;
+    margin: 0px 0px 10px 0px;
+}
+.Client_reviews {
+    margin: 10px 0px 0px 0px;
+    max-width: 326px;
+    background: #FFFFFF;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.Client_mark {
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 53px;
+    max-width: 80px;
+    max-height: auto;
+    margin: 0px 0px 25px 0px;
+}
+.Client_mark_score{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 125%;
+    color: #757575;
+    
+}
+
+.Client_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: #757575;
+    margin: 0px 0px 30px 0px;
+
+}
+.Client_text_name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 128%;
+    color: #757575;
+}
+.Client_text_date {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: #757575;
+}
+
+.Review_button {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+.R_button {
+    padding: 23px 64px 23px 64px;
+    background: #2F80ED;
+    border-radius: 9px;
+    color: #FFFFFF;
+    border-radius: 9px;
+    border: 0px;
+}
+.Client_mob{
+    display: none;
+}
+.Review_button_mob{
+    display: none;
+}
+
+.Address {
+    background-image: url(Photo/Rectangle\ 47.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.Address_tittle {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 110%;
+    color: #535353;
+    margin: 40px 0px 0px 0px;
+}
+.Address_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: #757575;
+}
+.conteiner_mob{
+    display: none;
+}
+@media  (max-width: 480px) {
+    .headd{
+        display: none;
+    }
+    .headd_mob {
+        display: block;
+        background-color: white;
+    }
+    .conteiner_mob {
+        max-width: 355px; /* ширина контентной части */
+        margin: 0px auto;
+    }
+    
+    .headd_mob_body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 18px 0px 0px 0px;
+    }
+    
+    .headd_mob_cont {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headd_mob_icon{
+        margin: 0px 10px 0px 0px;
+    }
+
+    .photo_mob {
+        display: block;
+        background-image: url(photo/Rectangle\ 62.png);
+        background-repeat: no-repeat;
+         background-position: center; 
+        height: 360px;
+        width: auto;
+        background-repeat: no-repeat; 
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    .photo_body_mob {
+        margin: 0% 0% 15% 15%;
+        position: absolute;
+        left: 0;
+        top: 300px;
+        max-width: 355px;
+    }
+    .photo_text_mob {
+        margin: 0px;
+    }
+    .button_row_mob {
+        display: block;
+        display: flex;
+        /* flex-direction: row; */
+         justify-content: center;
+        align-items: center; 
+
+    }
+    .photo_button_mob {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .Zabr_mob {
+        display: flex;
+        justify-content: center;
+        background-color: #2F80ED;
+        border: 0px;
+        padding: 20px 125px 22px 125px;
+        color: #FFFFFF;
+        border-radius: 9px;
+    }
+    .AH {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 110%;
+    }
+    .SPY {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 110%;
+    }
+    .Addres {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .Inf{
+        display: none;
+    }
+
+    .Inf_mob {
+        display: block;
+    }
+    
+    .Ab_us_row_mob {
+        margin-top: 35px;
+    }
+  
+    .Ab_us_tittle_mob {
+        font-weight: 500;
+    font-size: 26px;
+    line-height: 110%;
+    color: #434343;
+
+    }
+    .Ab_us_text_mob {
+        font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    color: #757575;
+    }
+    
+   
+    .Plants_img_mob {
+        max-width: 130px;
+        min-height: 200px;
+
+    }
+    
+    .Rooms_img_mob {
+        max-width: 215px;
+        min-height: 200px;
+    }
+    .Pl_row{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Pools_img_mob{
+        max-width: 355px;
+    }
+    .Num_Fund_body{
+        display: none;
+    }
+    .Num_Fund{
+        display: none;
+    }
+    .Num_Fund_mob {
+        display: block;
+    }
+    .Num_Fund_img{
+        /* max-width: 355px; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+   
+    .Num_Fund_row_inf_mob {
+        max-width: 355px;
+    }
+   
+    .Vacation{
+        display: none;
+    }
+    .Vacation_mob{
+        display: block;
+    }
+   
+    .Vacation_body_mob {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .Vacation_inf_mob {
+        display: flex;
+        margin: 0px 0px 25px 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.12);
+        min-height: 77px;
+        border-radius: 15px;
+    }
+    .Vacation_img {
+        max-width: 51px;
+        max-height: 51px;
+        margin: 0px 10px 0px 10px;
+    }
+    .V_img_row_mob{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Loc{
+        display: none;
+    }
+   
+    .Loc_mob {
+        display: block;
+    }
+    
+    .Loc_title {
+        margin: 35px 0px 35px 0px;
+    }
+    
+    .Rooms_img {
+        max-width: 130px;
+        min-height: 213px;
+    }
+    
+    .Bed_img {
+        max-width: 215px;
+        min-height: 178px;
+    }
+   
+    .Herb_img {
+        max-width: 215px;
+        min-height: 178px;
+    }
+   
+    .Town_img {
+        max-width: 130px;
+        min-height: 213px;
+    }
+    
+    .Video{
+        display: none;
+    }
+    .Video_mob{
+        display: block;
+    }
+    
+    .Video_ph {
+        background-image: url(photo/Rectangle\ 38\ \(1\).png);
+        min-height: 30vh;
+    }
+   
+    .Video_plus_img {
+        max-width: 78px;
+        max-height: 78px;
+    }
+    .Relax{
+        display: none;
+    }
+    .Relax_mob {
+        display: block;
+    }
+   
+    .Relax_body_mob {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 60px 0px 0px 0px;
+    }
+   
+    .Client{
+        display: none;
+    }
+    .Client_mob {
+        display: block;
+    }
+    
+    .Client_body {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .Client_text_logo_row{
+        display: flex;
+        margin: 0px 0px 40px 0px;
+    }
+   
+    .Review_button {
+        display: none;
+    }
+    .Review_button_mob{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+    }
+   
+    .conteiner{
+        display: none;
+    }
+    .Address{
+        display: none;
+    }
+    .conteiner_mob {
+        display: block;
+    }
+   
+    .Address_mob {
+        display: block;
+    }
+}
